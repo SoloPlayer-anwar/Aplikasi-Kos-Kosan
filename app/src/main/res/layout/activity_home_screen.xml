@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".home.HomeScreenActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:mbn_countBackgroundColor="#ff6f00"
+        app:mbn_backgroundBottomColor="@color/drakblue"
+        app:mbn_countTextColor="@color/yellow"
+        app:mbn_defaultIconColor="#90a4ae"
+        app:mbn_rippleColor="@color/whitegray"
+        app:mbn_selectedIconColor="@color/yellow"
+        app:mbn_shadowColor="#1f212121" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

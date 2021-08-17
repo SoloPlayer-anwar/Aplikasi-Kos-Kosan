@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_login"
+    android:layout_marginBottom="16dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivUser"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/saly"
+        app:civ_border_color="@color/teal_700"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Pull Code"
+        android:textColor="@color/pink"
+        app:layout_constraintStart_toEndOf="@+id/ivUser"
+        app:layout_constraintTop_toTopOf="@+id/ivUser" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahasiswa"
+        android:textSize="11dp"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/drakblue"
+        android:drawableRight="@drawable/ic_detail"
+        android:drawablePadding="3dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/tvUser"
+        app:layout_constraintTop_toBottomOf="@+id/tvUser" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:cardBackgroundColor="#f2f2f2"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="14dp"
+        app:layout_constraintStart_toStartOf="@+id/ivUser"
+        app:layout_constraintTop_toBottomOf="@+id/ivUser">
+
+        <ImageView
+            android:id="@+id/ivPosterWait"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="12dp"
+        android:drawableLeft="@drawable/ic_detail"
+        android:drawablePadding="2dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/kamar"
+        android:textColor="@color/drakblue"
+        app:layout_constraintStart_toEndOf="@+id/cardView3"
+        app:layout_constraintTop_toTopOf="@+id/cardView3" />
+
+    <TextView
+        android:id="@+id/tvKamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="A3"
+        android:textSize="12dp"
+        android:fontFamily="@font/poppins"
+        android:drawableRight="@drawable/ic_baseline_check_circle_outline_24"
+        android:drawablePadding="3dp"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_detail"
+        android:drawablePadding="2dp"
+        android:fontFamily="@font/poppins"
+        android:text="Sewa"
+        android:textSize="12dp"
+        android:textColor="@color/drakblue"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/tvBulan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Bulan"
+        android:textSize="12dp"
+        android:drawableRight="@drawable/ic_baseline_check_circle_outline_24"
+        android:drawablePadding="3dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="@+id/tvKamar"
+        app:layout_constraintTop_toTopOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/fasilitas"
+        android:textSize="12dp"
+        android:drawableLeft="@drawable/ic_detail"
+        android:gravity="center"
+        android:drawablePadding="2dp"
+        android:textColor="@color/drakblue"
+        android:fontFamily="@font/poppins"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/tvfasiliti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahasiswa"
+        android:drawableRight="@drawable/ic_baseline_check_circle_outline_24"
+        android:drawablePadding="3dp"
+        android:textSize="12dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="@+id/textView25"
+        app:layout_constraintEnd_toEndOf="@+id/tvBulan"
+        app:layout_constraintTop_toTopOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Harga"
+        android:drawableLeft="@drawable/ic_detail"
+        android:drawablePadding="2dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="12dp"
+        android:textColor="@color/drakblue"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/tvHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/idr"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/pink"
+        android:drawableRight="@drawable/ic_baseline_check_circle_outline_24"
+        android:drawablePadding="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/tvfasiliti"
+        app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/tvPending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:drawableRight="@drawable/ic_baseline_check_circle_outline_24"
+        android:drawablePadding="3dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Pending"
+        android:textColor="@color/drakblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvHarga"
+        app:layout_constraintTop_toBottomOf="@+id/tvHarga" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

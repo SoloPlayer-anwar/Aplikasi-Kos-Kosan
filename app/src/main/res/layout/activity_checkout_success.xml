@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard.checkout.PaymentPutraActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/yellow">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/success"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your order is in progress"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/darkblue2"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/abuabu"
+        android:text="Wait a minute I'll connect you bokingan\nyou with the father of the cost" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back to home"
+        android:textColor="@color/white"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="24dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/layout_yellow"/>
+
+
+    <Button
+        android:id="@+id/paynow"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Pay now"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_semibold"
+        android:textAllCaps="false"
+        android:background="@drawable/layout_background"/>
+
+</LinearLayout>

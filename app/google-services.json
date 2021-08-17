@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "956257689203",
+    "firebase_url": "https://tesproject-6bee9-default-rtdb.firebaseio.com",
+    "project_id": "tesproject-6bee9",
+    "storage_bucket": "tesproject-6bee9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956257689203:android:bcbb224600fc888a605406",
+        "android_client_info": {
+          "package_name": "com.example.koskosan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956257689203-9a01iblo6o23ojpnumm8kl3tdelr6pej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1LP9jpxzl14toud9fkjDItA4UDqUfqRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956257689203-9a01iblo6o23ojpnumm8kl3tdelr6pej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956257689203:android:fc05209193633508605406",
+        "android_client_info": {
+          "package_name": "com.example.tes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956257689203-9a01iblo6o23ojpnumm8kl3tdelr6pej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1LP9jpxzl14toud9fkjDItA4UDqUfqRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956257689203-9a01iblo6o23ojpnumm8kl3tdelr6pej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
